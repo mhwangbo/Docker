@@ -1,0 +1,1 @@
+docker run -d --name lair -v hatchery:/var/www/html --link spawning-pool:mysql -p 8080:80 wordpress:latest
